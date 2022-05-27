@@ -4,7 +4,7 @@ When you add a tracked or commited file in .gitignore, it is not ignored. It is 
 
 To ignore tracked files, first add them in .gitignore then run following commands:
 
-`git rm -r cached .` You made all tracked files untracked.
+`git rm -r --cached .` You made all tracked files untracked.
 
 `git add .` You tracked all files, but not the ones in .gitignore
 
